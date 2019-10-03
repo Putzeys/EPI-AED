@@ -82,7 +82,7 @@ int main() {
     for (int i = 0; i < qnt; ++i) {
         printf("Digite o nome do Soldado :");
         scanf ("%s",nome);
-        inserirElemListaOrd();
+        //inserirElemListaOrd();
     }
 
 
