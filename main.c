@@ -74,13 +74,13 @@ bool inserirElemListaOrd(LISTA* l, REGISTRO reg) {
 int main() {
  // definir numero de soldados
 
-    int qnt ;
+    int qnt = 6 ;
     char nome[30];
     // Pega o número de soldados e declara seus nomes
-    printf("Escolha o número de soldados do seu círculo: ");
-    scanf("%i", &qnt );
+    printf("Escolha o nome dos 6 soldados do seu círculo: \n");
+
     for (int i = 0; i < qnt; ++i) {
-        printf("Digite o nome do Soldado :");
+        printf("Digite o nome do Soldado %i :", i+1);
         scanf ("%s",nome);
         //inserirElemListaOrd();
     }
